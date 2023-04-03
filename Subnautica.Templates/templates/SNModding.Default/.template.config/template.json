@@ -1,0 +1,33 @@
+{
+  "author": "Subnautica Modding Community",
+  "name": "Subnautica Template",
+  "description": "Template with all the necessary packages and configurations for modding Subnautica with a basic Plugins class.",
+  "identity": "SNModding.Default",
+  "shortName": "snmod",
+  "classifications": ["SNModding", "Subnautica", "Mod"],
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "SNModding.Default",
+  "symbols": {
+    "TargetFramework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "net472"
+        },
+        {
+          "choice": "net35"
+        },
+        {
+          "choice": "netstandard2.0"
+        }
+      ],
+      "defaultValue": "net472",
+      "replaces": "net472"
+    }
+  }
+}

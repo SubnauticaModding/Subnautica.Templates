@@ -1,0 +1,33 @@
+{
+  "author": "Subnautica Modding Community",
+  "name": "Subnautica: Below Zero Template",
+  "description": "Template with all the necessary packages and configurations for modding Subnautica: Below Zero with a basic Plugins class.",
+  "identity": "BZModding.Default",
+  "shortName": "bzmod",
+  "classifications": ["SNModding", "Subnautica: Below Zero", "Mod"],
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "BZModding.Default",
+  "symbols": {
+    "TargetFramework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "net472"
+        },
+        {
+          "choice": "net35"
+        },
+        {
+          "choice": "netstandard2.0"
+        }
+      ],
+      "defaultValue": "net472",
+      "replaces": "net472"
+    }
+  }
+}

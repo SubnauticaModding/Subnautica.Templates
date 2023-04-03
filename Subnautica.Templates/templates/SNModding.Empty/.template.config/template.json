@@ -1,0 +1,33 @@
+{
+  "author": "Subnautica Modding Community",
+  "name": "Subnautica Empty Template",
+  "description": "Template with all the necessary packages and configurations for modding Subnautica but with no additional files.",
+  "identity": "SNModding.Empty",
+  "shortName": "snmod_empty",
+  "classifications": ["SNModding", "Subnautica", "Mod"],
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "SNModding.Empty",
+  "symbols": {
+    "TargetFramework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "net472"
+        },
+        {
+          "choice": "net35"
+        },
+        {
+          "choice": "netstandard2.0"
+        }
+      ],
+      "defaultValue": "net472",
+      "replaces": "net472"
+    }
+  }
+}

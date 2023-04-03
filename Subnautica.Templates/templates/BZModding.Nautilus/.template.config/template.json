@@ -1,0 +1,33 @@
+{
+  "author": "Subnautica Modding Community",
+  "name": "Subnautica: Below Zero Nautilus Template",
+  "description": "Template with Nautilus installed and all other necessary packages for modding Subnautica: Below Zero.",
+  "identity": "BZModding.Nautilus",
+  "shortName": "bzmod_nautilus",
+  "classifications": ["SNModding", "Subnautica: Below Zero", "Mod", "Nautilus"],
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "BZModding.Nautilus",
+  "symbols": {
+    "TargetFramework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "net472"
+        },
+        {
+          "choice": "net35"
+        },
+        {
+          "choice": "netstandard2.0"
+        }
+      ],
+      "defaultValue": "net472",
+      "replaces": "net472"
+    }
+  }
+}

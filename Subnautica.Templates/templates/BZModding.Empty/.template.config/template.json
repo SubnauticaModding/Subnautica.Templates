@@ -1,0 +1,33 @@
+{
+  "author": "Subnautica Modding Community",
+  "name": "Subnautica: Below Zero Empty Template",
+  "description": "Template with all the necessary packages and configurations for modding Subnautica: Below Zero but with no additional files.",
+  "identity": "BZModding.Empty",
+  "shortName": "bzmod_empty",
+  "classifications": ["SNModding", "Subnautica: Below Zero", "Mod"],
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "BZModding.Empty",
+  "symbols": {
+    "TargetFramework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "net472"
+        },
+        {
+          "choice": "net35"
+        },
+        {
+          "choice": "netstandard2.0"
+        }
+      ],
+      "defaultValue": "net472",
+      "replaces": "net472"
+    }
+  }
+}

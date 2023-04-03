@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageType>Template</PackageType>
+        <PackageVersion>1.0.0</PackageVersion>
+        <PackageId>Subnautica.Templates</PackageId>
+        <Title>Subnautica Modding Templates</Title>
+        <Authors>SNModding, Metious</Authors>
+        <Description>Common plugin templates for Subnautica Modding</Description>
+        <PackageTags>SNModding;Subnautica;BepInEx;Template</PackageTags>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <PackageOutputPath>$(SolutionDir)nuget</PackageOutputPath>
+        <IncludeContentInPack>true</IncludeContentInPack>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <ContentTargetFolders>content</ContentTargetFolders>
+        <NoWarn>$(NoWarn);NU5128</NoWarn>
+        <RootNamespace>SNModding.Templates</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**;templates\**\.idea\**;templates\.idea\**" />
+        <Compile Remove="**\*" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="templates\BZModding.Default\" />
+      <Folder Include="templates\BZModding.Empty\" />
+      <Folder Include="templates\BZModding.Nautilus\" />
+    </ItemGroup>
+
+</Project>
