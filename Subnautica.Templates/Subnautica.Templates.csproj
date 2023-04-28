@@ -7,7 +7,12 @@
         <Title>Subnautica Modding Templates</Title>
         <Authors>SNModding, Metious</Authors>
         <Description>Common plugin templates for Subnautica Modding</Description>
-        <PackageTags>SNModding;Subnautica;BepInEx;Template</PackageTags>
+        <PackageTags>SNModding;Subnautica;SubnauticaZero;BZ;BepInEx;Template</PackageTags>
+        <Copyright>Copyright @ 2023</Copyright>
+        <PackageProjectUrl>https://github.com/SubnauticaModding/Subnautica.Templates</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/SubnauticaModding/Subnautica.Templates</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <TargetFramework>netstandard2.0</TargetFramework>
         <PackageOutputPath>$(SolutionDir)nuget</PackageOutputPath>
