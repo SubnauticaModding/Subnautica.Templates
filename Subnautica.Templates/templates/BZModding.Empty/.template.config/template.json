@@ -1,6 +1,6 @@
 {
   "author": "Subnautica Modding Community",
-  "name": "Subnautica: Below Zero Empty Template",
+  "name": "Subnautica Below Zero Empty Template",
   "description": "Template with all the necessary packages and configurations for modding Subnautica: Below Zero but with no additional files.",
   "identity": "BZModding.Empty",
   "shortName": "bzmod_empty",

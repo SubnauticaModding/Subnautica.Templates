@@ -1,6 +1,6 @@
 {
   "author": "Subnautica Modding Community",
-  "name": "Subnautica: Below Zero Nautilus Template",
+  "name": "Subnautica Below Zero Nautilus Template",
   "description": "Template with Nautilus installed and all other necessary packages for modding Subnautica: Below Zero.",
   "identity": "BZModding.Nautilus",
   "shortName": "bzmod_nautilus",
