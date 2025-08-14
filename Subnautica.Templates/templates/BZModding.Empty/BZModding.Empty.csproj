@@ -19,8 +19,8 @@
     <PackageReference Include="BepInEx.Core" Version="5.4.21" />
     <PackageReference Include="BepInEx.PluginInfoProps" Version="1.1.0" />
     <PackageReference Include="UnityEngine.Modules" Version="2019.4.36" IncludeAssets="compile" />
-    <PackageReference Include="Subnautica.BelowZero.GameLibs" Version="49371.0.0.1-r.0" />
-    <PackageReference Include="PolySharp" Version="1.13.1" />
+    <PackageReference Include="Subnautica.BelowZero.GameLibs" Version="53115.0.0-r.0" />
+    <PackageReference Include="PolySharp" Version="1.15.0" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
